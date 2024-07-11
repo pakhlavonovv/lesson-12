@@ -30,9 +30,50 @@
 
 // 5 misol
 
-let str = "Abdullox"
-for(let i = 0; i < str.length; i++){
-    if(){
-        console.log(str[i])
-    }
-}
+// const isLetter = (str) => {
+//     let arr = str.split('');
+//     arr.forEach(item => {
+//         if (!isNaN(item)) {
+//             console.log(`${item} stringdagi so'zda hammasi xarfdan iborat`);
+//         } else {
+//             console.log(`${item} stringdagi so'zda hammasi xarfdan iborat emas`);
+//         }
+//     });
+
+// }
+// isLetter("Abdullox");
+
+// 6 misol
+
+// const strLength = (str) => {
+//     let newStr = str.split(' ');
+//     let arr = newStr.map(function (item) {
+//         return item.length;
+//     });
+//     console.log(arr);
+// }
+// strLength("Men dasturlash");
+
+// 7 misol
+
+// const strIsLower = (str) => {
+//     let newString = str.split("")
+//     newString.forEach(item => {
+//         if (item.includes(" ")) {
+//             console.log(`${item} bosh joy`);
+//         } else {
+//             console.log(`${item} bosh joy mavjud emas`);
+//         }
+//     })
+// }
+// strIsLower("Hello");
+
+// 8 misol
+
+// let obj = {a:7, b:5, c:2}
+// let arr = []
+
+// for(let key in obj){
+//     arr.push(`${key}${obj[key]}`)
+// }
+// console.log(arr)
